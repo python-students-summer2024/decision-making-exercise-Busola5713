@@ -34,20 +34,20 @@ def main():
     bmi_category = get_bmi_category()
     print("Your BMI stastical category is {}.".format(bmi_category))
 
-    # print out the total cost of a face masks purchase
+    # # print out the total cost of a face masks purchase
     print()  # line break!
     total = get_discount()
     print("The total cost of your face masks is: {}.".format(total))
 
-    # print out whether it's currently a leap year
+    # # print out whether it's currently a leap year
     print()
     this_year = get_year()
     if is_leap_year():
-        print("{} is a leap year!!!!".format(this_year))
+         print("{} is a leap year!!!!".format(this_year))
     else:
-        print("Sorry.... {} is not a leap year.".format(this_year))
+         print("Sorry.... {} is not a leap year.".format(this_year))
 
-    # print out a farewell message
+    # # print out a farewell message
     print()
     print("--- BYE BYE! ---")
 
